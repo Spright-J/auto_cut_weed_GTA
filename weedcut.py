@@ -28,7 +28,6 @@ def CutWeed(e_time):
     print('Left click')
     keyboard.release(Key.alt_l)
 
-
     time.sleep(e_time)
     keyboard.press('e')
     time.sleep(.1)
@@ -40,7 +39,6 @@ def CutWeed(e_time):
     time.sleep(.1)
     keyboard.release("e")
     print('Second Cut!')
-
 
 def main():
     time.sleep(5)
